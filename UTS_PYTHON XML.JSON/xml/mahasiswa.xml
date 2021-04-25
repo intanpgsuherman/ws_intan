@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mahasiswa>
+    <nama>Intan P G Suherman</nama>
+    <alamat>Tasikmalaya</alamat>
+    <jurusan>Informatika</jurusan>
+
+    <hobi name="Futsal"/>
+    <hobi name="Mancing"/>
+    <hobi name="Ngoding"/>
+</mahasiswa>

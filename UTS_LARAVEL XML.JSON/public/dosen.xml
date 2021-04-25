@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="uts_webservice" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="dosen">
+                CREATE TABLE `dosen` (
+                  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+                  `matakuliah_id` bigint(20) unsigned NOT NULL,
+                  `sks` int(11) NOT NULL,
+                  `NIP` int(11) NOT NULL,
+                  `Name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `Address` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `created_at` timestamp NULL DEFAULT NULL,
+                  `updated_at` timestamp NULL DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'uts_webservice'
+    -->
+    <database name="uts_webservice">
+        <!-- Tabel dosen -->
+        <table name="dosen">
+            <column name="id">6</column>
+            <column name="matakuliah_id">6</column>
+            <column name="sks">3</column>
+            <column name="NIP">7006121</column>
+            <column name="Name">Intan </column>
+            <column name="Address">Jl. KhoerAffandi</column>
+            <column name="created_at">2021-04-24 20:01:08</column>
+            <column name="updated_at">2021-04-24 20:01:08</column>
+        </table>
+        <table name="dosen">
+            <column name="id">7</column>
+            <column name="matakuliah_id">5</column>
+            <column name="sks">3</column>
+            <column name="NIP">7006188</column>
+            <column name="Name">Rio Muhammad Anugerah</column>
+            <column name="Address">Bandung Raya</column>
+            <column name="created_at">2021-04-24 20:04:09</column>
+            <column name="updated_at">2021-04-234 20:04:09</column>
+        </table>
+        <!-- <table name="dosen">
+            <column name="id">3</column>
+            <column name="matakuliah_id">8</column>
+            <column name="sks">1</column>
+            <column name="NIP">7006167</column>
+            <column name="Name">Fatimah Azzahra</column>
+            <column name="Address">Madinah</column>
+            <column name="created_at">2021-04-23 20:15:53</column>
+            <column name="updated_at">2021-04-23 20:15:53</column>
+        </table>
+        <table name="dosen">
+            <column name="id">4</column>
+            <column name="matakuliah_id">9</column>
+            <column name="sks">2</column>
+            <column name="NIP">7006112</column>
+            <column name="Name">Syyidina Ali</column>
+            <column name="Address">Madinah</column>
+            <column name="created_at">2021-04-23 20:20:13</column>
+            <column name="updated_at">2021-04-23 20:20:13</column>
+        </table>
+        <table name="dosen">
+            <column name="id">5</column>
+            <column name="matakuliah_id">1</column>
+            <column name="sks">3</column>
+            <column name="NIP">7006169</column>
+            <column name="Name">Satria Bhayangkara</column>
+            <column name="Address">Makasar</column>
+            <column name="created_at">2021-04-23 20:21:18</column>
+            <column name="updated_at">2021-04-23 20:21:18</column>
+        </table> -->
+    </database>
+</pma_xml_export>

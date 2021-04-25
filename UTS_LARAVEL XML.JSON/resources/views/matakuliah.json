@@ -1,0 +1,163 @@
+{
+	"pma_xml_export":
+	{
+		"pma:structure_schemas":
+		{
+			"pma:database":
+			{
+				"pma:table":
+				{
+					"@value": "CREATE TABLE `dosen` (\n                  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,\n                  `matakuliah_id` bigint(20) unsigned NOT NULL,\n                  `sks` int(11) NOT NULL,\n                  `NIP` int(11) NOT NULL,\n                  `Name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,\n                  `Address` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,\n                  `created_at` timestamp NULL DEFAULT NULL,\n                  `updated_at` timestamp NULL DEFAULT NULL,\n                  PRIMARY KEY (`id`)\n                ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;",
+					"@attributes":
+					{
+						"name": "dosen"
+					}
+				},
+				"@attributes":
+				{
+					"name": "uts_webservice",
+					"collation": "utf8mb4_general_ci",
+					"charset": "utf8mb4"
+				}
+			}
+		},
+		"database":
+		{
+			"table": [
+			{
+				"column": [
+				{
+					"@value": "6",
+					"@attributes":
+					{
+						"name": "id"
+					}
+				},
+				{
+					"@value": "6",
+					"@attributes":
+					{
+						"name": "matakuliah_id"
+					}
+				},
+				{
+					"@value": "3",
+					"@attributes":
+					{
+						"name": "sks"
+					}
+				},
+				{
+					"@value": "7006121",
+					"@attributes":
+					{
+						"name": "NIP"
+					}
+				},
+				{
+					"@value": "Intan",
+					"@attributes":
+					{
+						"name": "Name"
+					}
+				},
+				{
+					"@value": "Jl. KhoerAffandi",
+					"@attributes":
+					{
+						"name": "Address"
+					}
+				},
+				{
+					"@value": "2021-04-24 20:01:08",
+					"@attributes":
+					{
+						"name": "created_at"
+					}
+				},
+				{
+					"@value": "2021-04-24 20:01:08",
+					"@attributes":
+					{
+						"name": "updated_at"
+					}
+				}],
+				"@attributes":
+				{
+					"name": "dosen"
+				}
+			},
+			{
+				"column": [
+				{
+					"@value": "7",
+					"@attributes":
+					{
+						"name": "id"
+					}
+				},
+				{
+					"@value": "5",
+					"@attributes":
+					{
+						"name": "matakuliah_id"
+					}
+				},
+				{
+					"@value": "3",
+					"@attributes":
+					{
+						"name": "sks"
+					}
+				},
+				{
+					"@value": "7006188",
+					"@attributes":
+					{
+						"name": "NIP"
+					}
+				},
+				{
+					"@value": "Rio Muhammad Anugerah",
+					"@attributes":
+					{
+						"name": "Name"
+					}
+				},
+				{
+					"@value": "Bandung Raya",
+					"@attributes":
+					{
+						"name": "Address"
+					}
+				},
+				{
+					"@value": "2021-04-24 20:04:09",
+					"@attributes":
+					{
+						"name": "created_at"
+					}
+				},
+				{
+					"@value": "2021-04-234 20:04:09",
+					"@attributes":
+					{
+						"name": "updated_at"
+					}
+				}],
+				"@attributes":
+				{
+					"name": "dosen"
+				}
+			}],
+			"@attributes":
+			{
+				"name": "uts_webservice"
+			}
+		},
+		"@attributes":
+		{
+			"version": "1.0"
+		}
+	}
+}

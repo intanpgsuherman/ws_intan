@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<catalog>
+   <book id="bk001">
+      <author>Intan, P G Suherman</author>
+      <title>XML Developer's Guide</title>
+      <genre>Computer</genre>
+      <price>56.95</price>
+      <publish_date>2008-10-04</publish_date>
+      <description>An in-depth look at creating applications 
+      with XML.</description>
+   </book>
+   <book id="bk002">
+      <author>Rio, M Anugerah</author>
+      <title>Bismillah</title>
+      <genre>Islami</genre>
+      <price>60.54</price>
+      <publish_date>2000-12-16</publish_date>
+      <description>A struggle towards a haqiqi paradise.</description>
+   </book>
+   <book id="bk003">
+      <author>Fatimah, Azzahra</author>
+      <title>Ya Rasul</title>
+      <genre>Islami</genre>
+      <price>87.88</price>
+      <publish_date>2000-11-17</publish_date>
+      <description>The Spread of Islam in Medina</description>
+   </book>
+</catalog>
